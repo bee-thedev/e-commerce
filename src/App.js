@@ -13,7 +13,7 @@ function App() {
   
   const [order, setOrder] = useState({});
 
-  const [errormessage, setErrorMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
   const getProduct = async() => {
     const {data} = await commerce.products.list();
 
@@ -53,7 +53,7 @@ function App() {
   const refreshCart = async () => {
     const newCart = await commerce.cart.refresh();
 
-    setCart(newCart);
+    setTheCart(newCart);
   };
 
   const handleCaptureCheckout = async (checkoutTokenId, newOrder) => {
