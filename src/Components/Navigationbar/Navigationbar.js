@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Toolbar, IconButton, Badge, Menu, ManuItem, Typography } from "@material-ui/core";
+import { AppBar, Toolbar, IconButton, Badge, Typography } from "@material-ui/core";
 import { ShoppingCart } from "@material-ui/icons";
 import DevBee from "../../Images/DevBee.png";
 import useStyles from "./NavigationbarStyle";
